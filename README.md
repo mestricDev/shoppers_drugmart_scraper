@@ -1,6 +1,6 @@
 # Shoppers Drug Mart Pharmacy Scraper
 
-This script scrapes data about pharmacies from Shoppers Drug Mart's website, such as the pharmacist's name, drug store name, street address, city, province, postal code, and phone number. It will save the scraped data into a CSV file (`pharmacies.csv`) and log any missing or inaccessible data to a separate file (`missing_data.txt`).
+This script scrapes data about pharmacies from Shoppers Drug Mart's [website](https://www.shoppersdrugmart.ca/en/store-locator), such as the pharmacist's name, drug store name, street address, city, province, postal code, and phone number. It will save the scraped data into a CSV file (`pharmacies.csv`) and log any missing or inaccessible data to a separate file (`missing_data.txt`).
 
 ## Dependencies
 
@@ -51,7 +51,7 @@ The `pharmacies.csv` file will contain the following columns:
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE.md file for details, or you can include the full text of the MIT License directly in the README as follows:
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Disclaimer
 
