@@ -25,10 +25,11 @@ pip install selenium requests
 
 ## Usage
 
-1. **Set Up ChromeDriver**: Make sure you have ChromeDriver installed and specify its path in the script, e.g., `'C:\\Temp\\chromedriver.exe'`.
-2. **Set Up Chrome Binary**: Specify the path to your Chrome executable in the script, e.g., `'C:\\Temp\\chrome-win64\\chrome.exe'`.
-3. **Adjust Start and End Values**: You can adjust the `start_num` and `end_num` variables in the script to specify the range of pages to scrape.
-4. **Run the Script**: Simply run the script by executing the following command:
+1. **Download Chrome and ChromeDriver**: You can download Chrome and ChromeDriver for testing from [this link](https://googlechromelabs.github.io/chrome-for-testing). Make sure to download the versions that are compatible with each other.
+2. **Set Up ChromeDriver**: Make sure you have ChromeDriver installed and specify its path in the script, e.g., `'C:\\Temp\\chromedriver.exe'`.
+3. **Set Up Chrome Binary**: Specify the path to your Chrome executable in the script, e.g., `'C:\\Temp\\chrome-win64\\chrome.exe'`.
+4. **Adjust Start and End Values**: You can adjust the `start_num` and `end_num` variables in the script to specify the range of pages to scrape.
+5. **Run the Script**: Simply run the script by executing the following command:
 
 ```bash
 python <path_to_script.py>
