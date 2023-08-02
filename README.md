@@ -56,11 +56,3 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 ## Disclaimer
 
 This script is provided for educational purposes only. Always ensure that you are complying with the website's Terms of Service when scraping data.
-
-## Contact
-
-For any inquiries, please contact [your-email@example.com].
-
----
-
-You may need to adjust some parts to fit your specific needs, like contact information or additional features you might add later.
