@@ -20,6 +20,18 @@ missing_data = []
 webdriver_service = Service('C:\\Temp\\chromedriver.exe')
 options = Options()
 options.binary_location = 'C:\\Temp\\chrome-win64\\chrome.exe'
+prefs = {"profile.managed_default_content_settings.images": 2,
+         "profile.default_content_setting_values.notifications": 2,
+         "profile.managed_default_content_settings.stylesheets": 1,
+         "profile.managed_default_content_settings.javascript": 1,
+         "profile.managed_default_content_settings.plugins": 1,
+         "profile.managed_default_content_settings.popups": 2,
+         "profile.managed_default_content_settings.geolocation": 2,
+         "profile.managed_default_content_settings.media_stream": 2,
+        }
+options.add_experimental_option("prefs", prefs)
+options.add_argument("--headless")
+options.add_experimental_option('excludeSwitches', ['enable-logging'])
 
 driver = webdriver.Chrome(service=webdriver_service, options=options)
 wait = WebDriverWait(driver, 10)
